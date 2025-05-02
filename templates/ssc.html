@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='homepage.css') }}">
+</head>
+<body>
+    <header>
+        <div id="head">
+            <h1 class="heading">
+                <a>Social Service Connect</a>
+            </h1>
+            <nav>
+                <ul style="list-style-type: none; padding: 0; display: flex; align-items: center;">
+                    <li style="margin-right: 15px;"><a href="/" class="active">Home</a></li>
+                    <li class="dropdown" style="margin-right: 15px;">
+                        <a href="#" class="active">Events</a>
+                        <div class="dropdown-content">
+                            <a href="/donate">Donate</a>
+                            <a href="/volunteer">Volunteer</a>
+                        </div>
+                    </li>
+                    <li style="margin-right: 15px;"><a href="/shop">Shop</a></li>
+                    <li><a href="https://chat.whatsapp.com/L06dKCMoVepLEc1fcoDwBb" target="_blank">Contact</a></li>
+                </ul>
+                <div class="search-container" style="margin-left: auto;">
+                    <input type="text" placeholder="Search" class="search-input">
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+    
+    <main>
+      <section id="Hero_section">
+        <div id="welcome">
+            <h1 class="pqr">Where Giving Meets Purpose</h1>
+            <div id="input">
+              <a href="/ngodonor_page"><input class="login" type="button" value="Log in" name="sign_up"></a>       
+              <a href="/donorr_page"><input class="signup" type="button" value="Sign up" name="log_in" id="login"></a>
+          </div>
+            <div id="p">
+                <p>Welcome to Social Service Connect!</p>
+                <p>We connect volunteers with organizations in need</p>
+                <p>making a positive impact in the community.</p>
+            </div>
+        </div>
+        
+        <img class="logossc"  src="{{ url_for('static', filename='handwash.jpg') }}" height="390px" >
+    </section>
+    
+
+        <section  class="About_Us">
+            <div id="img2"><img  src="{{ url_for('static', filename='sscimagenow.png') }}" alt="Volunteer Matching Image" height="500px"></div>
+            <div class="about">
+            <h1 class="subheading">Our Services</h1>
+            <p  class="sub-para"> Bridging NGOs and individuals for impactful collaboration, donations, and artisan support."</p>
+            </div>
+
+        </section>
+
+        <section class="ssc_categories">
+            <div id="ssc">
+            <h2>Community Events</h2>
+            <p>Connect NGOs and Individuals.</p>
+            <p>Donate the Items.</p>
+            <p>Empower Needy Artisans through Artifact Sales</p>
+            <p>Safe and Secure Platform with User Privacy</p>
+            <p>Transparent Tracking of Donations and Work Contributions</p>
+        </div>
+        <div><img  src="{{ url_for('static', filename='nowcom.jpeg') }}" height="300px"></div>   
+        </section>
+
+        <section class="Contact_us">
+            <div id="contact">
+                <h2>Contact Us</h2>
+                <p>Email address: socialserviceconnect@gmail.com</p>
+                <p>Phone number: 9255555555</p>
+                <p>Social media links</p>
+                <p>Twitter: <a href="https://x.com/service_conn?t=PI6xN38xAqP6oAUgR4Tg-w&s=09" target="_blank">socialserviceconnect.twitter.com</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/socialserviceconnect" target="_blank">Facebook.com/socialserviceconnect</a></p>
+                <p>Instagram: <a href="https://www.instagram.com/social_service_connect?igsh=d254Y2MyeDNvcHA2" target="_blank">@social_service_connect</a></p>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>

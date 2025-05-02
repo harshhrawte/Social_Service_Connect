@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop Section</title>
+<style>
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #333;
+        line-height: 1.6;
+        background-image: url('how.jpeg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .head {
+        display: flex;
+        align-items: center;
+    }
+
+    .main-heading {
+        margin-left: 20px;
+    }
+
+    nav {
+        text-align: right;
+        margin-right: 20px;
+    }
+
+    nav a {
+        margin-left: 15px;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: start;
+        margin-top: 20px;
+        padding: 0 20px;
+    }
+
+    .item {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+    }
+
+    .item img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .item h3 {
+        margin-top: 0;
+    }
+
+    .item p {
+        margin-bottom: 20px;
+    }
+
+    .item button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 20px 30px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        bottom: 0;
+        height: 3%;
+        width: 100%;
+    }
+</style>
+</head>
+<body>
+  <header>
+    <div class="head">
+        <h1 class="heading main-heading">
+            <a href="#">Social Service Connect</a>
+        </h1>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#" id="event">Events</a>
+            <a href="#">Shop</a>
+            <a href="https://chat.whatsapp.com/L06dKCMoVepLEc1fcoDwBb" target="_blank">Contact</a>
+            <input type="text" placeholder="search">
+        </nav>
+    </div>
+</header>
+    <!-- Rest of your content -->
+    <!-- ... -->
+
+</body>
+</html>
+
+</header>
+    <div class="container">
+        <div class="item">
+            <img src="{{ url_for('static', filename='pottery.jpeg.jpg') }}"alt="Artifact 1" style="width:200px;height:150px;">
+            <h3>Handcrafted Pottery</h3>
+            <p>Beautiful pottery made by local artisans. Perfect for home decoration or as a gift.</p>
+            <p>Price: Rs 200 </p>
+            <button class="contact-button">
+                <a href="/shopp">Add to Cart</a>
+            </button>
+        </div>
+        <div class="item">
+            <img src="{{ url_for('static', filename='Handwoven Basket.jpeg.jpg') }}" alt="Artifact 2" style="width:200px;height:150px;">
+            <h3>Handwoven Basket</h3>
+            <p>Handwoven basket made from natural fibers. Great for storage or as a decorative piece.</p>
+            <p>Price: Rs 200 </p>
+            <button class="contact-button">
+                <a href="/shopp">Add to Cart</a>
+            </button>
+        </div>
+        <div class="item">
+            <img src="{{ url_for('static', filename='Lord-Vallaba-Ganapati-wooden-sculpture.jpg') }}" alt="Artifact 3"style="width:200px;height:150px;">
+            <h3>Lord Vallabha Ganapathi Wooden Sculpture</h3>
+            <p>Exquisite wooden sculpture carved by skilled craftsmen. A unique addition to any home.</p>
+            <p>Price: Rs 200 </p>
+            <button class="contact-button">
+                <a href="/shopp">Add to Cart</a>
+            </button>
+        </div>
+        <!-- Additional items -->
+        <div class="item">
+            <img src="{{ url_for('static', filename='handmade jwellery.jpeg.jpg') }}" alt="Artifact 4" style="width:200px;height:150px;">
+            <h3>Handmade Jewellery</h3>
+            <p>Handmade Jewellery in India.</p>
+            <p>Price: Rs 200</p>
+            <button class="contact-button">
+                <a href="/shopp">Add to Cart</a>
+            </button>
+        </div>
+        <div class="item">
+            <img src="{{ url_for('static', filename='Blue-Patola-Style-Potli-300x300.jpg') }}" alt="Artifact 5" style="width:200px;height:150px;">
+            <h3>Handmade potli</h3>
+            <p>handmade potlis by skilled craftsmen</p>
+            <p>Price: Rs 200 </p>
+            <button class="contact-button">
+                <a href="/shopp">Add to Cart</a>
+            </button>
+        </div>
+        <div class="item">
+            <img src="{{ url_for('static', filename='wooden-handicraft_1_orig.jpeg.jpg') }}" alt="Artifact 6" style="width:200px;height:150px;">
+            <h3>Elephant Sculpture </h3>
+            <p>Elephant Sculpture by craftsmen</p>
+            <p>Price: Rs 200 </p>
+            <button class="contact-button">
+                <a href="/shopp">Add to Cart</a>
+            </button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Artisan Shop. All rights reserved.</p>
+    </footer>
+    <!-- Next page link -->
+    <div style="text-align: center; margin-top: 7px;">
+        <a href="#" aria-setsize="15px">Next Page</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-image: url('how.jpeg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; /* This will ensure the image covers the entire background */
+}
+
+header{
+background-color: #fff;
+}
+nav{
+color: #fefefe;
+padding-top: 45px;
+padding-bottom: 30px;
+padding-right: 40px ;
+padding-left: 40px;
+display: flex;
+gap: 30px;
+transition: 0.3s;
+position: absolute;
+right: 10px;
+}
+nav a{
+  color: #000000;
+text-decoration: none;
+font-size: 20px;
+font-weight: 100;
+padding: 5px 16px;
+border-radius: 99px;
+}
+#event {
+  background-color:blue;
+}
+.location{
+color:red;
+}
+.heading{
+  font-family:Arial;
+  color: #333;
+  font-weight:bold;
+  height: 200px;
+}
+
+h4{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#img1{
+  padding-left: 800px;
+  padding-top: 100px;
+  border-color: #000000;
+  border-radius:20px;
+  
+}
+#vol{ 
+      color: blueviolet;
+      font-weight: bold;
+      height: 100px;
+      width: 300px;
+      padding-top: 50px;
+      padding-left: 700px;  
+      border-color: rgb(64, 189, 213);
+      border-radius:20px;
+}
+.image{
+  border-color:rgb(17, 220, 14);
+  padding-left: 100px;
+  padding-top: 300px;
+  width: 500px;
+  height: 220px;
+  padding-right: 200px;
+  margin-right: 100px;
+  
+ 
+}
+#food{
+    
+
+  padding-bottom: 0px;
+
+  padding-top: 300px;
+  width: 580px;
+  height: 220px;
+  padding-left: 90px;
+  padding-right: 200px;
+  margin-right: 100px;
+  border: #000000;
+}
+
+.dis{
+color: #0f04de;
+font-size: larger;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+ color: white;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 5px 16px;
+  border-radius: 12px;
+  background-color: blue;
+  margin-top: 250px;
+ 
+}

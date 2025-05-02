@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ngodonor.css') }}">
+</head>
+<body>
+  <header>
+    <div id="head">
+        <h1 class="heading">
+            <a>Social Service Connect</a>
+        </h1>
+        <nav>
+        <a href="#">Home</a>
+        <a href="#" class="active">Events</a>
+        <a href="#">Shop</a>
+        <a href="https://chat.whatsapp.com/L06dKCMoVepLEc1fcoDwBb" target="_blank">Contact</a>
+        
+        <input type="text" placeholder="search">
+        </nav>
+       
+    </div>
+</header>
+
+
+<div id="input">
+  <a href="ngosignup_page"><input class="login" type="button" value="NGO" name="sign_up"></a>       
+  <a href="donorsignup_page"><input class="signup" type="button" value="Donor" name="log_in" id="login"></a>
+</div>
+</body>
+</html>

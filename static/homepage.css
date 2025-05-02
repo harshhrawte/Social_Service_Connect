@@ -1,0 +1,346 @@
+
+
+
+
+body {
+  background-image: url('how.jpeg'); /* Replace 'background-image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+color: #333;
+line-height: 1.6;
+}
+
+header{
+background-color: #fff;
+}
+nav{
+color: #fefefe;
+padding-top: 45px;
+padding-bottom: 30px;
+padding-right: 40px ;
+padding-left: 40px;
+display: flex;
+gap: 30px;
+transition: 0.3s;
+position: absolute;
+right: 10px;
+}
+nav a{
+text-decoration: none;
+font-size: 20px;
+font-weight: 100;
+padding: 5px 16px;
+border-radius: 99px;
+}
+
+nav a.active{
+background-color: rgb(61, 18, 188);
+}
+
+header nav a:hover{
+background-color: rgb(61, 18, 188);
+color: #fff;
+}
+header nav:hover > a:not(:hover){
+background: none;
+}
+
+
+header input{
+border-radius: 99px;
+padding-left: 20px;
+color: #000000;
+width: 170px;
+background: #fcfcfc;
+border: 1px solid #aaa;
+box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+
+/* Header Styles */
+header {
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    display: inline-flexbox;
+}
+.heading {
+    font-size: 40px;
+    color: #000000;
+    position: absolute;
+    left: 30px;
+}
+.heading {
+font-size: 36px;
+color: #333;
+
+}
+
+#Hero_section{
+height: 1000px;
+width: 600px;
+display: flex;
+}
+
+#Hero_section h1{
+font-size: 55px;
+color: #000000;
+position: absolute;  
+left: 70px;
+top: 390px;
+}
+#Hero_section a{
+color: rgb(61, 18, 188);
+}
+
+#p{
+color: rgb(61, 18, 188);
+position: absolute;
+left: 75px;
+top: 490px;
+color: #000000;
+margin-top:40px;
+font-size: 25px;
+
+}
+#Hero_section img{
+position: absolute;
+left:850px;
+top: 240px;
+}
+#input{
+position: absolute;
+display: flex;
+gap: 20px;
+left:100px;
+top:400px;
+font-size: 80%;
+}
+
+
+
+
+
+
+.signup{
+  background-color:rgb(61, 18, 188);
+  color:white;
+  font-size:18px;
+  padding-left:13px;
+  padding-right:13px;
+  padding-bottom:10px;
+  padding-top:10px;
+  border-radius:19px;
+  border:none;
+  cursor:pointer;
+}
+.signup:hover{
+  opacity:0.8;
+}
+.signup:active{
+  opacity:0.6;
+}
+
+.login{
+  background-color:rgb(61, 18, 188);
+  color:white;
+  font-size:18px;
+  padding-left:13px;
+  padding-right:13px;
+  padding-bottom:10px;
+  padding-top:10px;
+  border-radius:19px;
+  border:none;
+  cursor:pointer;
+}
+.login:hover{
+  opacity:0.8;
+}
+.login:active{
+  opacity:0.6;
+}
+
+
+
+
+.ssc_categories{
+height: 700px;
+width: 1200px;
+display: flex;
+color: #fff;
+background-color:rgb(61, 18, 188);
+border-radius: 30px;
+position:relative;
+left: 150px;
+font-size:20px;
+}
+
+
+#ssc{
+color: #fff;
+position: relative;
+left: 30px;
+width: 650px;
+font-size:23px;
+}
+
+.ssc_categories h2{
+color: #fff;
+font-size: 60px;
+}
+#ssc p{
+color: #fff;
+font-size: 25px;
+}
+
+.ssc_categories img{
+border-radius: 30px;
+position: relative;
+left: 45px;
+top: 110px;
+}
+
+
+.Contact_us{
+height: 700px;
+width: 1200px;
+margin: 10px;
+position: relative;
+left:140px;
+}
+#contact{
+color: #ffffff;
+height: 700px;
+width: 1200px;
+background-color: #333;
+border-radius: 20px;
+position: relative;
+}
+#contact h2{
+color: #fff;
+font-size: 60px;
+position: relative;
+top: 30px;
+left: 40px;
+}
+#contact p{
+font-size: 20px;
+position: relative;
+top: 30px;
+left: 40px;
+}
+
+
+/* Main Content Styles */
+main {
+padding: 20px;
+}
+
+.About_Us{
+  height: 500px;
+  margin-bottom:30px;
+  width: 1200px;
+  display: flex;
+  color: #fff;
+  background-color: rgb(116, 180, 219);
+  border-radius: 30px;
+  position:relative;
+  left: 150px;
+  font-size:20px;
+  border-radius:20px;
+  }
+
+  .About_Us img{
+    height:400px;
+    padding-top:30px;
+    border-radius:30px;
+    margin-left : 20px;
+    }
+
+ #about{
+    position: relative;
+    left: 850px;
+    width: 500px;
+    top: 50px;
+    }
+    
+   .subheading{
+    font-size: 60px;
+    color: #ffffff;
+    margin-right: 200px;
+    margin-top: 20px;
+    }
+
+   .sub-para{
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 200px;
+    margin-top: 30px;
+    width: 100%;
+    }
+    
+
+
+
+
+/* Footer Styles */
+footer {
+background-color: #333;
+color: #fff;
+text-align: left;
+padding: 10px;
+margin-top:4px;
+border-radius:10px;
+}
+.pqr {
+  color: #333; /* Adjust color as needed */
+  margin-top: 50px; /* Adjust the margin to move it up */
+  text-align: center; /* Center the text */
+  font-size:24px; /* Adjust font size as needed */
+  font-weight: bold; /* Make it bold */
+}
+.logossc{
+  border-radius:20px;
+}

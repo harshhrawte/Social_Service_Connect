@@ -1,0 +1,175 @@
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+color: #333;
+line-height: 1.6;
+}
+
+header{
+background-color: #fff;
+}
+nav{
+color: #fefefe;
+padding-top: 45px;
+padding-bottom: 30px;
+padding-right: 40px ;
+padding-left: 40px;
+display: flex;
+gap: 30px;
+transition: 0.3s;
+position: absolute;
+right: 10px;
+}
+nav a{
+text-decoration: none;
+font-size: 20px;
+font-weight: 100;
+padding: 5px 16px;
+border-radius: 99px;
+}
+
+nav a.active{
+background-color: rgb(61, 18, 188);
+}
+
+header nav a:hover{
+background-color: rgb(61, 18, 188);
+color: #fff;
+}
+header nav:hover > a:not(:hover){
+background: none;
+}
+
+
+header input{
+border-radius: 99px;
+padding-left: 20px;
+color: #000000;
+width: 170px;
+background: #fcfcfc;
+border: 1px solid #aaa;
+box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+}
+
+
+/* Header Styles */
+header {
+    background-color: #fefefe;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5%;
+    display: inline-flexbox;
+}
+.heading {
+    font-size: 40px;
+    color: #000000;
+    position: absolute;
+    left: 30px;
+}
+.heading {
+font-size: 36px;
+color: #333;
+
+}
+
+#Hero_section{
+height: 1000px;
+width: 600px;
+display: flex;
+}
+
+#Hero_section h1{
+font-size: 55px;
+color: #000000;
+position: absolute;  
+left: 70px;
+top: 390px;
+}
+#Hero_section a{
+color: rgb(61, 18, 188);
+}
+
+#input{
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  left:100px;
+  top:400px;
+  font-size: 80%;
+  }
+  
+  .signup{
+    background-color:rgb(61, 18, 188);
+    color:white;
+    font-size:40px;
+    padding-left:13px;
+    padding-right:13px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius:50px;
+    border:none;
+    cursor:pointer;
+    width:160px;
+    height:100px;
+  }
+  .signup:hover{
+    opacity:0.8;
+  }
+  .signup:active{
+    opacity:0.6;
+  }
+  
+  .login{
+    background-color:rgb(61, 18, 188);
+    color:white;
+    font-size:40px;
+    padding-left:13px;
+    padding-right:13px;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-radius:50px;
+    border:none;
+    cursor:pointer;
+    width:160px;
+    height:100px;
+  }
+  .login:hover{
+    opacity:0.8;
+  }
+  .login:active{
+    opacity:0.6;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Screenshot\ 2024-04-23\ 085746.png'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to header */
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .donate-section {
+    padding: 50px;
+    color: #333; /* Set text color */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to section */
+  }
+  
